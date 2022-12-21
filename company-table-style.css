@@ -1,0 +1,42 @@
+@import url("./base_style.css");
+
+nav {
+    background-color: var(--up-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 12px;
+}
+
+nav > *{
+    display: inline-block;
+    text-align: center;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+table,
+td {
+    border: 1px solid rgba(51, 51, 51, 0.253);
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+td {
+    text-align: center;
+    height: 60px;
+}
