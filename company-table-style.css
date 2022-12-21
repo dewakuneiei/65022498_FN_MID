@@ -10,7 +10,7 @@ nav {
     padding: 12px;
 }
 
-nav > *{
+nav > a *{
     display: inline-block;
     text-align: center;
 
@@ -22,8 +22,18 @@ main {
     justify-content: center;
     align-items: center;
     gap: 50px;
+    margin: 0 50px;
 }
 
+
+table {
+    width: 100%;
+}
+
+h3 {
+    margin-top: 25px;
+    font-size: 1.8em;
+}
 
 table,
 td {
@@ -32,11 +42,17 @@ td {
 
 thead,
 tfoot {
-    background-color: #333;
-    color: #fff;
+    color: black;
 }
 
 td {
     text-align: center;
     height: 60px;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+tr:nth-child(odd) {
+    background-color: rgb(235, 192, 235);
 }

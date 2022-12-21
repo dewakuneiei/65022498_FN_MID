@@ -39,17 +39,26 @@ img {
 input {
     border: none;
     border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    outline: none;
+    padding: 2px;
 }
 
-#bnt-login {
+#btn-login {
     align-self: center;
     width: 100%;
     padding: 4px;
-    margin-top: 21px;
+    margin-top: 12px;
     background-color: rgb(190, 190, 190);
     border: none;
     border-radius: 4px;
+    cursor: pointer;
 }
+
+.parent-block > a {
+    width: 100%;
+}
+
+#btn-login:hover{background-color: aliceblue}
 
 a {
     text-decoration: none;
