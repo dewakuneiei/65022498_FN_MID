@@ -1,0 +1,71 @@
+@import url('./base_style.css');
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: 100%;
+    align-self: center;
+}
+
+img {
+    height: 450px;
+    width: 320px;
+}
+
+#head-title {
+    font-size: 2em;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+}
+
+.parent-block {
+    margin: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 21px;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+#bnt-login {
+    align-self: center;
+    width: 100%;
+    padding: 4px;
+    margin-top: 21px;
+    background-color: rgb(190, 190, 190);
+    border: none;
+    border-radius: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(190, 190, 190);
+    margin-top: 12px;
+    align-self: center;
+
+}
+
+#google-login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
+#google-login > a {
+    color: rgb(0, 81, 255);
+}
